@@ -4,23 +4,51 @@
     <meta charset="UTF-8">
     <title>登录同学录</title>
     <style type="text/css">
+    	*{
+    		padding:0;
+    		margin:0;
+    	}
        h1{
            text-align: center;
        }
         p{
-            text-align: center;
-            font:bold 15px "宋体";
-        }
+           text-align: center;
+           font:bold 15px "宋体";
+       } 
         a{
             text-decoration: none;
         }
+  		.pp{
+  			width:300px;
+  			height:100px;
+  			margin:0 auto;
+  			text-align: left;
+
+  		
+  		} 
+  		.ll{
+  			width:250px;
+  			height:30px;
+  			line-height: 40px;
+  			padding-top: 5px;
+  		}
+  		.zz{
+  			width: 300px;
+  			height: 30px;
+  			line-height: 40px;
+  			padding: 14px;
+  		} 
     </style>
 </head>
 <body>
 <h1>网页版同学录</h1>
+
 <form action="">
-   <p> <label for="dlzh">账号：</label><input type="text" id="dlzh" name="账号" placeholder="登录账号"></p>
-    <p><label for="mm">密码：</label><input type="password" id="mm" name="密码" placeholder="密码"><a target="_blank" href="http://localhost:63342/网页版同学录/web/找回密码界面.html">忘记密码?</a></p>
+<div class=pp>
+   <p class=ll><label for="dlzh">账号：</label><input type="text" id="dlzh" name="账号" placeholder="登录账号"></p>
+    <p class=zz><label for="mm">密码：</label><input type="password" id="mm" name="密码" placeholder="密码"</p>
+    <a target="_blank" href="http://localhost:63342/网页版同学录/web/找回密码界面.html">忘记密码?</a></p>
+</div>
         <p><input type="submit" value="      登  录      " onclick="alert('登陆成功')"></p>
 </form>
     <p><a target="_blank" href="http://localhost:63342/网页版同学录/web/注册界面.html">注册账号</a></p>
