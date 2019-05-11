@@ -4,23 +4,41 @@
     <meta charset="UTF-8">
 <title>注册新账号</title>
 	<style type="text/css">
-       h1{
-		   text-align: center;
-	   }
-		p{
+		h1,p{
 			text-align: center;
+		}
+		.AA{
+			width: 303px;
+			height: 40px;
+			margin: 0 auto;
+			text-align: center;
+
+		}
+		.AA span{
+			width: 98px;
+			height: 40px;
+			line-height: 40px;
+			float: left;
+			text-align: right;
+
+
+		}
+		.AA .bb{
+			width: 200px;
+			height: 40px;
+			line-height: 40px;
+			float: right;
+			text-align: left;
 		}
 	</style>
 </head>
 <body>
 <h1>注册新账号</h1>
-<form action="">
-	<p><label for="yhzh">用户账号</label><input type="text" id="yhzh" name="新建账号" placeholder="请设置登录账号"></p>
-	<p><label for="sjh">手机号</label><input type="text" id="sjh" name="手机号" placeholder="可用于登录和找回密码"></p>
-	<p><label for="szmm">密码</label><input type="text" id="szmm" name="新建密码" placeholder="请设置登录密码"></p>
-	<p><label for="qrmm">确认密码</label><input type="text" id="qrmm" name="确认密码" placeholder="请确认登录密码"></p>
-	<p><label for="yzm">验证码</label><input type="text" id="yzm" name="验证码" placeholder="请输入验证码"></p>
+	<div class="AA"><label for="yhzh"><span>用户账号</span></label><div class="bb"><input type="text" id="yhzh" name="新建账号" placeholder="请设置登录账号"></div></div>
+	<div class="AA"><label for="sjh"><span>手机号</span></label><div class="bb"><input type="text" id="sjh" name="手机号" placeholder="可用于登录和找回密码"></div></div>
+<div class="AA"><label for="szmm"><span>密码</span></label><div class="bb"><input type="password" id="szmm" name="新建密码" placeholder="请设置登录密码"></div></div>
+<div class="AA"><label for="qrmm"><span>确认密码</span></label><div class="bb"><input type="password" id="qrmm" name="确认密码" placeholder="请确认登录密码"></div></div>
+	<div class="AA"><label for="yzm"><span>验证码</span></label><div class="bb"><input type="text" id="yzm" name="验证码" placeholder="请输入验证码"></div></div>
 	<p><input type="submit" value="     注 册     "></p>
-</form>
 </body>
 </html>
