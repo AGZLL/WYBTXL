@@ -8,12 +8,16 @@
             padding:0;
             margin:0;
         }
+        .bjdh{
+            width: 100%;
+            height: 1000px;
+            background:rgba(200,200,200,0.5);
+        }
         h1{
-            margin-left: 500px;
+            padding-top:30px;
             text-align: center;
-            width: 300px;
-            height: 100px;
-            line-height: 100px;
+            height: 150px;
+            color: rgba(0, 0, 0, 0.79);
         }
         p{
             text-align: center;
@@ -25,9 +29,10 @@
         }
         input{
             padding-left: 10px;
+            border-radius: 5px;
         }
         .pp{
-            width:400px;
+            width:300px;
             height:400px;
             margin:0 auto;
             text-align: left;
@@ -36,30 +41,20 @@
         .ll{
             width:250px;
             height:30px;
+            line-height: 40px;
             padding-top: 5px;
-            text-align: left;
-            margin-left: 47px;
-            box-sizing:border-box;
         }
         .zz{
-            width: 400px;
-            height: 50px;
+            width: 300px;
+            height: 30px;
+            line-height: 40px;
             padding: 14px;
-            box-sizing:border-box;
         }
-        body{
-            background-image:url(背景7.jpg);
+        .bj{
+            background-image:url(../images/背景7.jpg);
             background-repeat:no-repeat;
             background-attachment: fixed;
             background-size:100% 100%;
-            overflow:hidden;
-        }
-        .bjdh{
-            width: 100%;
-            height: 1000px;
-            background:rgba(200,200,200,0.3);
-            overflow:hidden;
-            opacity:1;
         }
         .db{
             color: #fff;
@@ -69,36 +64,28 @@
             font-size:20px;
             font-weight:bold;
         }
-        .bq{
-            height: 60px;
-        }
-        .dl{
+       .bq{
+           height: 60px;
+       }
+       .dl{
             height: 30px;
-            width: 100px;
-            margin-left:132px;
-        }
-        .zh{
-            width: 100px;
-            height: 30px;
-            box-sizing:border-box;
-            margin-left:132px;
         }
     </style>
 </head>
-<body>
+<body class="bj">
 <div class="bjdh">
-    <h1>网页版同学录</h1>
+<h1>网页版同学录</h1>
 
-    <form action="主界面.html">
-        <div class=pp>
-            <p class=ll><label for="dlzh">账号：</label><input type="text" id="dlzh" name="账号" placeholder="登录账号"></p>
-            <p class=zz><label for="mm">密码：</label><input type="password" id="mm" name="密码" placeholder="密码">
-            <a target="_blank" href="找回密码界面.html">忘记密码?</a></p></p>
-            <p class="dl"><input type="submit" value="      登  录      "  ></p>
-            <p class="zh"><a target="_blank" href="注册界面.html" class="db">注册账号</a></p>
-        </div>
+<form action="主界面.html">
+    <div class=pp>
+        <p class=ll><label for="dlzh">账号：</label><input type="text" id="dlzh" name="账号" placeholder="登录账号"></p>
+        <p class=zz><label for="mm">密码：</label><input type="password" id="mm" name="密码" placeholder="密码"</p>
+        <a target="_blank" href="找回密码界面.html">忘记密码?</a></p>
+        <p class="dl"><input type="submit" value="     登  录       "  ></p>
+        <p><a target="_blank" href="注册界面.html" class="db">注册账号</a></p>
+    </div>
 
-    </form>
+</form>
     <div class="db">
         <p class="zmd"><marquee behavior="alternate" direction="left" >欢迎使用网页版同学录</marquee></p>
         <div class="bq"><p><a target="_blank" href="问题反馈界面.html" class="db">问题反馈</a></p></div>
