@@ -7,22 +7,31 @@
         h2,p{
             text-align: center;
         }
-        .bj{
+        body{
             background-image:url(../images/背景10.jpg);
             background-repeat:no-repeat;
             background-attachment: fixed;
             background-size:100% 100%;
+            overflow:hidden;
+        }
+        .bjdh{
+            width: 100%;
+            height: 1000px; 
+            background:rgba(200,200,200,0.5);
         }
         textarea{
-            opacity: 0.5;
+            opacity:0.8;
+            padding: 10px;
         }
     </style>
 </head>
-<body class="bj">
+<body>
+<div class="bjdh">
 <form action="">
     <h2>问题反馈栏</h2>
     <p><textarea name="反馈问题"  cols="150" rows="20" placeholder="请在此填写反馈内容："></textarea></p>
     <p><input type="submit"  value="     提 交     " onclick="alert('提交成功')" ></p>
 </form>
+</div>
 </body>
 </html>
