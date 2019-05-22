@@ -9,21 +9,45 @@
 			background-repeat:no-repeat;
             background-attachment: fixed;
             background-size:100% 100%;
+			font-weight: 700;
+			color: rgba(0,0,0,0.6);
+
 		}
 		h1,h2{
 			text-align: center;
 			height: 25px;
 			color: rgba(0,0,0,0.6);
 		}
+		.zong{
+			/*background-color: rgba(253, 255, 203, 0.6);*/
+			width: 1400px;
+			height: 450px;
+			margin-left:45px;
+		}
 		.zs{
-			background-color: pink;
-			padding-left:100px;
-			width:550px;
-			height: 340px;
-			margin: 100px;
+			/*background-color: rgba(255, 192, 203, 0.6);*/
+			width:300px;
+			height: 430px;
+			margin-left:430px;
+			float: left;
+
+		}
+		.ys{
+			/*background-color: rgba(96, 107, 255, 0.65);*/
+			width: 360px;
+			height:430px;
+			float: right;
+			margin-right:290px;
+		}
+		.zx{
+			/*background-color: rgba(190, 18, 5, 0.59);*/
+			width:700px;
+			height:100px;
+			margin-left:475px;
+
 		}
 		.zj{
-			background-color: greenyellow;
+			/*background-color: greenyellow;*/
 			width:1110px;
 			height:240px;
 			text-align: center;
@@ -33,12 +57,28 @@
 			width: 100px;
 			height: 25px;
 			margin-left:700px;
-			background-color: yellow;
+			/*background-color: yellow;*/
 		}
 		.duan{
 			border: 1px none #fff;
 			border-bottom: 1px solid #000; 
 			background-color: rgba(0,0,0,0);
+			width:80px;
+			padding-left:10px;
+		}
+		.chang{
+			border: 1px none #fff;
+			border-bottom: 1px solid #000;
+			background-color: rgba(0,0,0,0);
+			width:170px;
+		}
+		.pj{
+			/*background-color: rgba(71, 255, 55, 0.54);*/
+			height:45px;
+		}
+		.pj1{
+			/*background-color: rgba(236, 99, 255, 0.53);*/
+			height:89px;
 		}
 		.bjdh{
 			width: 100%;
@@ -47,6 +87,10 @@
 		}
 		select{
 			background-color: rgba(0,0,0,0);
+		}
+		textarea{
+			padding:5px;
+			border-radius: 4px;
 		}
 	</style>
 </head>
@@ -57,91 +101,106 @@
 	<div class="zong">
 		<div class="zs">
 
-		<p>姓名:<input type="text"  class="duan"></p>
-	       性别:<input type="radio" name="xb">男
-		    <input type="radio" name="xb">女
-		<p>破壳日:  <select>
-					<optgroup>
-						<option value="">1990</option>
-						<option value="">1991</option>
-						<option value="">1992</option>
-						<option value="">1993</option>
-						<option value="">1994</option>
-						<option value="">1995</option>
-						<option value="">1996</option>
-						<option value="">1997</option>
-						<option value="">1998</option>
-						<option value="">1999</option>
-						<option value="">2000</option>
-						<option value="">2001</option>
-						<option value="">2002</option>
-						<option value="">2003</option>
-						<option value="">2004</option>
-						<option value="">2005</option>
-						<option value="">2006</option>
-						<option value="">2007</option>
-						<option value="">2008</option>
-						<option value="">2009</option>
-						<option value="">2010</option>
-					</optgroup>
-				 	</select>年
-					<select>
-						<option value="">01</option>
-						<option value="">02</option>
-						<option value="">03</option>
-						<option value="">04</option>
-						<option value="">05</option>
-						<option value="">06</option>
-						<option value="">07</option>
-						<option value="">08</option>
-						<option value="">09</option>
-						<option value="">10</option>
-						<option value="">11</option>
-						<option value="">12</option>
-					</select>月
-					<select>
-						<optgroup>
-							<option value="">01</option>
-							<option value="">02</option>
-							<option value="">03</option>
-							<option value="">04</option>
-							<option value="">05</option>
-							<option value="">06</option>
-							<option value="">07</option>
-							<option value="">08</option>
-							<option value="">09</option>
-							<option value="">10</option>
-							<option value="">11</option>
-							<option value="">12</option>
-							<option value="">13</option>
-							<option value="">14</option>
-							<option value="">15</option>
-							<option value="">16</option>
-							<option value="">17</option>
-							<option value="">18</option>
-							<option value="">19</option>
-							<option value="">20</option>
-							<option value="">21</option>
-							<option value="">22</option>
-							<option value="">23</option>
-							<option value="">24</option>
-							<option value="">25</option>
-							<option value="">26</option>
-							<option value="">27</option>
-							<option value="">28</option>
-							<option value="">29</option>
-							<option value="">30</option>
-							<option value="">31</option>
-
-						</optgroup>
-					</select>日
-			 </p>
-
-
-
+			<p>姓名：<input type="text"  class="duan">   </p>
+			<p>血型：<input type="text " class="duan"></p>
+			<p>
+				星座：<input type="text " class="duan">
+			</p>
+			<p>最讨厌做什么：<input type="text" class="chang"></p>
+			<p class="pj">最自己的评价：<input type="text" class="chang"></p>
+			<p>Q Q：<input type="text" class="chang"></p>
+			<p>微信：<input type="text" class="chang"></p>
+			<p>邮箱：<input type="text" class="chang"></p>
+			<p>最想去的地方：<input type="text" class="duan"></p>
+			<p>最爱的一本书：<input type="text" class="duan"></p>
+		</div>
+		<div class="ys">
+			<p>性别: <input type="radio" name="xb">帅 哥  <input type="radio" name="xb">靓 女</p>
+			<p>破壳日:  <select>
+				<option value="">1990</option>
+				<option value="">1991</option>
+				<option value="">1992</option>
+				<option value="">1993</option>
+				<option value="">1994</option>
+				<option value="">1995</option>
+				<option value="">1996</option>
+				<option value="">1997</option>
+				<option value="">1998</option>
+				<option value="">1999</option>
+				<option value="">2000</option>
+				<option value="">2001</option>
+				<option value="">2002</option>
+				<option value="">2003</option>
+				<option value="">2004</option>
+				<option value="">2005</option>
+				<option value="">2006</option>
+				<option value="">2007</option>
+				<option value="">2008</option>
+				<option value="">2009</option>
+				<option value="">2010</option>
+			</select>年
+				<select>
+					<option value="">01</option>
+					<option value="">02</option>
+					<option value="">03</option>
+					<option value="">04</option>
+					<option value="">05</option>
+					<option value="">06</option>
+					<option value="">07</option>
+					<option value="">08</option>
+					<option value="">09</option>
+					<option value="">10</option>
+					<option value="">11</option>
+					<option value="">12</option>
+				</select>月
+				<select>
+					<option value="">01</option>
+					<option value="">02</option>
+					<option value="">03</option>
+					<option value="">04</option>
+					<option value="">05</option>
+					<option value="">06</option>
+					<option value="">07</option>
+					<option value="">08</option>
+					<option value="">09</option>
+					<option value="">10</option>
+					<option value="">11</option>
+					<option value="">12</option>
+					<option value="">13</option>
+					<option value="">14</option>
+					<option value="">15</option>
+					<option value="">16</option>
+					<option value="">17</option>
+					<option value="">18</option>
+					<option value="">19</option>
+					<option value="">20</option>
+					<option value="">21</option>
+					<option value="">22</option>
+					<option value="">23</option>
+					<option value="">24</option>
+					<option value="">25</option>
+					<option value="">26</option>
+					<option value="">27</option>
+					<option value="">28</option>
+					<option value="">29</option>
+					<option value="">30</option>
+					<option value="">31</option>
+				</select>日
+			</p>
+			<p>属性: <input type="radio" name="sx">文艺青年<input type="radio" name="sx">技术宅<input type="radio" name="sx">火星人 <input type="radio" name="sx">其他</p>
+			<p class="pj1">&nbsp</p>
+			<p>幸运数字：<input type="text" class="duan"></p>
+			<p>微  博：<input type="text" class="chang"></p>
+			<p>电  话：<input type="text" class="chang"></p>
+			<p>最喜欢的歌手：<input type="text" class="duan"></p>
+			<p>最爱吃的食物：<input type="text" class="duan"></p>
 		</div>
 	</div>
-<h2>留言板</h2>
+		<div class="zx">
+			<p>我在你眼里是怎样的：<input type="radio" name="yx">帅 <input type="radio" name="yx">美 <input type="radio" name="yx">呆 <input type="radio" name="yx">萌 <input type="radio" name="yx">私下告诉你</p>
+			<p>对我的第一印象：<input type="text" class="chang"></p>
+		</div>
+<h2>好友赠言</h2>
 	<div class="zj">
 		<p><textarea name="留言板"  cols="170" rows="16" placeholder="请在此留言："></textarea></p>
 	</div>
