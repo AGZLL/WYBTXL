@@ -2,46 +2,74 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>欢迎使用网页版同学录</title>
+    <title>Title</title>
     <style>
-        a{
-            text-decoration: none;
-            color: #fff;
-
+        * {
+            margin: 0;
+            padding: 0;
+            position: relative;
         }
         body{
-            text-align: center;
-            background-image:url(../images/背景4.jpg);
-            background-repeat:no-repeat;
-            background-attachment: fixed;
-            background-size:100% 100%;
-            overflow:hidden;
+            background: rgba(128,128,128,0.5);
         }
-        .bq{
-            width: 400px;
-            height: 100px;
-            line-height: 100px;
+        img{
+            height: 300px;
+        }
+        ul {
+            width: 800px;
+            height: 320px;
+            margin: 100px auto;
+            box-sizing: border-box;
+            overflow: hidden;
+            position: relative;
+        }
+        ul li{
+            width: 200px;
+            height: 300px;
+            list-style:none;
+            float: left;
+            transition:width 1s;
+
+        }
+        ul li:hover{
+            width: 300px;
+        }
+        .one{
+            position: absolute;
+            bottom: 0;
+            left: 140px;
+        }
+        .two{
+            position: absolute;
+            bottom: 0;
+            left: 340px;
+        }
+        .three{
+            position: absolute;
+            bottom: 0;
+            left: 560px;
+        }
+        a{
+            text-decoration: none;
             font-size: 20px;
-            font-family:"黑体";
-            text-align: center;
-            border-radius: 4px;
-            background-color:lightgreen;
-            padding: 30px 50px 30px 50px;
-        }
-        .bjdh{
-            width: 100%;
-            height: 1000px;
-            background:rgba(210,210,210,0.3);
-            overflow:hidden;
-            opacity:1;
+            color: #3c45e2;
         }
     </style>
 </head>
-<body class="bj">
-    <div class="bjdh">
-        <p><a href="http://localhost:63342/网页版同学录/web/小学同学录.html" class="bq">小学同学录</a></p>
-        <p><a href="http://localhost:63342/网页版同学录/web/中学同学录.html" class="bq">中学同学录</a></p>
-        <p><a href="http://localhost:63342/网页版同学录/web/大学同学录.html" class="bq">大学同学录</a></p>
-    </div>
+<body>
+<div>
+    <ul>
+        <li><img src="../images/背景2.jpg" alt=""></li>
+        <li><img src="../images/背景3.jpg" alt=""></li>
+        <li><img src="../images/背景4.jpg" alt=""></li>
+        <div class="one"><a href="http://localhost:63342/WYBTXL/网页版同学录/web/小学同学录.html">小学</a></div>
+        <div class="two"><a href="http://localhost:63342/WYBTXL/网页版同学录/web/中学同学录.html">中学</a></div>
+        <div class="three"><a href="http://localhost:63342/WYBTXL/网页版同学录/web/大学同学录.html">大学</a></div>
+    </ul>
+</div>
 </body>
 </html>
+
+
+
+
