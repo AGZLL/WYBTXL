@@ -25,6 +25,7 @@
         }
         input{
             padding-left: 10px;
+
         }
         .pp{
             width:400px;
@@ -33,19 +34,25 @@
             text-align: left;
             font-weight:bold;
         }
+        .llzz{
+            width: 500px;
+            height: 130px;
+        }
         .ll{
             width:250px;
-            height:30px;
-            padding-top: 5px;
+            height:40px;
             text-align: left;
             margin-left: 47px;
             box-sizing:border-box;
+            font-size:20px;
         }
         .zz{
-            width: 400px;
-            height: 50px;
-            padding: 14px;
+            width: 350px;
+            height: 40px;
+            margin-top: 15px;
+            margin-left: 45px;
             box-sizing:border-box;
+            font-size: 20px;
         }
         body{
             background-image:url(../images/背景7.jpg);
@@ -76,12 +83,16 @@
             height: 30px;
             width: 100px;
             margin-left:132px;
+            margin-bottom: 20px;
+            margin-top: -30px;
+            box-sizing:border-box;
         }
         .zh{
             width: 100px;
             height: 30px;
             box-sizing:border-box;
             margin-left:132px;
+            margin-top: -10px;
         }
     </style>
 </head>
@@ -91,9 +102,9 @@
 
     <form action="主界面.html">
         <div class=pp>
-            <p class=ll><label for="dlzh">账号：</label><input type="text" id="dlzh" name="账号" placeholder="登录账号"></p>
+            <div class="llzz"><p class=ll><label for="dlzh">账号：</label><input type="text" id="dlzh" name="账号" placeholder="登录账号"></p>
             <p class=zz><label for="mm">密码：</label><input type="password" id="mm" name="密码" placeholder="密码">
-                <a target="_blank" href="找回密码界面.html">忘记密码?</a></p></p>
+                <a target="_blank" href="找回密码界面.html">忘记密码?</a></p></p></div>
             <p class="dl"><input type="submit" value="      登  录      "  ></p>
             <p class="zh"><a target="_blank" href="注册界面.html" class="db">注册账号</a></p>
         </div>
