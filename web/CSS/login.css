@@ -1,0 +1,104 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{
+    margin:0;padding:0
+}
+h1{
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    line-height: 100px;
+    margin: 0 auto;
+}
+p{
+    text-align: center;
+    font:bold 15px "宋体";
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+input{
+    padding-left: 10px;
+    /*border-radius:5px;*/
+}
+.pp{
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    width:400px;
+    height:190px;
+    margin:0 auto;
+    text-align: left;
+    font-weight:bold;
+    border-radius:5px;
+    padding-top: 20px;
+}
+a:hover{
+    color:blue;
+}
+.llzz{
+    width: 500px;
+    height: 130px;
+}
+.ll{
+    width:250px;
+    height:40px;
+    text-align: left;
+    margin-left: 45px;
+    box-sizing:border-box;
+    font-size:20px;
+}
+.zz{
+    width: 350px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 36px;
+    box-sizing:border-box;
+    font-size: 20px;
+}
+input{
+    height: 30px;
+}
+body{
+    background-image:url(../images/背景7.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100%;
+    overflow:hidden;
+}
+.bjdh{
+    width: 100%;
+    height: 1000px;
+    background:rgba(210,210,210,0.3);
+    overflow:hidden;
+    opacity:1;
+}
+.db{
+    color: #ffffff;
+    margin-top: 200px;
+
+}
+.zc{
+    color: #000;
+}
+.zmd{
+    color: #fffffd;
+    font-size:25px;
+
+}
+.bq{
+    height: 60px;
+}
+.dl{
+    height: 30px;
+    width: 100px;
+    margin-left:132px;
+    margin-bottom: 20px;
+    margin-top: -30px;
+    box-sizing:border-box;
+}
+.zh{
+    width: 100px;
+    height: 30px;
+    box-sizing:border-box;
+    margin-left:132px;
+    margin-top: -10px;
+}
